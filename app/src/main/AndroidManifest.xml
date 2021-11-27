@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Question2">
         <activity
+            android:name=".ArrayAdp"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPref"
+            android:exported="false" />
+        <activity
+            android:name=".IntentTest"
+            android:exported="false" />
+        <activity
+            android:name=".ImageVieewSimple"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
